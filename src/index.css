@@ -275,3 +275,18 @@ a{
   display: flex;
   gap: 7vh;
 }
+
+.aboutme-title{
+  text-align: center;
+}
+
+.design-container{
+  width: 50vw;
+  text-align: center;
+}
+
+.fifty-fifty-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

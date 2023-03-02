@@ -3,7 +3,8 @@ import Header from './components/Header'
 import Intro from './components/Intro';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
-import MySolution from './components/MySolution'
+import MySolution from './components/MySolution';
+import Design from './components/Design';
 import { useEffect, useState } from 'react';
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
       <AboutMe />
       <Projects cursorState={cursorState}/>
       <MySolution></MySolution>
+      <Design></Design>
     </div>
   );
 }
