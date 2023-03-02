@@ -1,0 +1,51 @@
+[
+    {
+        "title":"ToDo List",
+        "desc":"A full To-do list application with local storage in plain javascript.",
+        "features": ["Functional search bar", "Sorting tabs", "Dynamic layout using CSS grid", "Working percentage tracker", "Local storage"],
+        "img":"./Todo.png",
+        "repo": "https://github.com/sloggo/todo-list",
+        "live": "https://sloggo.github.io/todo-list/",
+        "languages": [
+            {
+                "id": "HTML",
+                "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"
+            },
+
+            {
+                "id": "CSS",
+                "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
+            },
+
+            {
+                "id": "Javascript",
+                "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+            }
+        ]
+    },
+
+    {
+        "title":"Etch A Sketch",
+        "desc":"Dynamic Etch a Sketch using plain Javascipt.",
+        "features": ["Resizable grid", "Colour Picker", "Colour randomiser"],
+        "img":"./Etch-a-Sketch.png",
+        "repo": "https://github.com/sloggo/etch-a-sketch-odin",
+        "live": "https://sloggo.github.io/etch-a-sketch-odin/",
+        "languages": [
+            {
+                "id": "HTML",
+                "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"
+            },
+
+            {
+                "id": "CSS",
+                "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
+            },
+
+            {
+                "id": "Javascript",
+                "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+            }
+        ]
+    }
+]
