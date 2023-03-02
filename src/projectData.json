@@ -3,49 +3,37 @@
         "title":"UNO Physical Card Game",
         "desc":"What's better than a face to face battle?",
         "features": ["Around ten euro at Easons", "Sit around table with family and friends", "In person, communicative and social", "As many players as the deck allows", "House rules up to players"],
-        "img":"./Todo.png",
-        "repo": "https://github.com/sloggo/todo-list",
-        "live": "https://sloggo.github.io/todo-list/",
-        "languages": [
-            {
-                "id": "HTML",
-                "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"
-            },
-
-            {
-                "id": "CSS",
-                "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
-            },
-
-            {
-                "id": "Javascript",
-                "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
-            }
-        ]
+        "img":"https://mixkit.imgix.net/videos/preview/mixkit-hands-of-a-person-playing-a-game-of-uno-5326-0.jpg?q=80&auto=format%2Ccompress"
     },
 
     {
-        "title":"Etch A Sketch",
-        "desc":"Dynamic Etch a Sketch using plain Javascipt.",
-        "features": ["Resizable grid", "Colour Picker", "Colour randomiser"],
-        "img":"./Etch-a-Sketch.png",
-        "repo": "https://github.com/sloggo/etch-a-sketch-odin",
-        "live": "https://sloggo.github.io/etch-a-sketch-odin/",
-        "languages": [
-            {
-                "id": "HTML",
-                "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"
-            },
-
-            {
-                "id": "CSS",
-                "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
-            },
-
-            {
-                "id": "Javascript",
-                "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
-            }
-        ]
+        "title":"UNO and Friends (mobile)",
+        "desc":"Play on the go with people from all over the world!",
+        "features": ["Free to play mobile game", "Ingame currency used to join tournaments", "Essentially gambling", "Customsiable avatars, pets, card designs", "Offers cosmetics to engage the player and gain money", "Brand deals, crossovers with major brands", "Rules are set by developers, may be strange to player"],
+        "img":"https://i.ytimg.com/vi/HvYk0sp_6dc/maxresdefault.jpg"
+    },
+    {
+        "title":"Blackjack Physical Card Game",
+        "desc":"Light-hearted blackjack fun!",
+        "features": ["Uses standard set of cards", "Cheap, less than five euro", "Social, in person", "2 players only", "No money involved, purely fun", "Fair, as players can set rules themselves"],
+        "img":"https://www.timesheraldonline.com/wp-content/uploads/2023/02/Timesheraldonline.com-IMAGE-17.jpg?w=1024"
+    },
+    {
+        "title":"Blackjack Casino Style",
+        "desc":"Blackjack in the casino!",
+        "features": ["Usually in a gambling setting", "Uses casino tokens rather than real money", "Hides the fact real money is being used", "In person, not as social", "Multiple players with a casino dealer", "Questionable morals, fairness", "Rules are set by casino, may be strange to player"],
+        "img":"https://www.caesars.com/content/cet-global/caesars-com/casino-gaming-blog/latest-posts/table-games/blackjack/how-to-play-blackjack/_jcr_content/featuredImage.stdimg.wide.l.jpg/1608331734095.jpg"
+    },
+    {
+        "title":"Monopoly Board Game",
+        "desc":"This game'll break your friendships!",
+        "features": ["Board game based on dice rolls", "Consists of game board", "Physical money, houses and hotels", "Various types of boards, collabs with other companies (Mario, Nintendo)","Social, in person sitting around a table", "One player acts as a banker and controls money"],
+        "img":"https://upload.wikimedia.org/wikipedia/commons/7/78/Monopoly_board_on_white_bg.jpg"
+    },
+    {
+        "title":"Monopoly Console Game",
+        "desc":"The famous board game hits the big screen!",
+        "features": ["Digital game", "Code controls board, houses, money instead of a dealer", "Social in the means of voice chat, but not face to face", "In game purchases such as DLC", "DLC offers new boards, cosmetics etc."],
+        "img":"https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4RBkj2pX3zdeogMZZpEj0f/eba4902ec3a3621baa1a207b6b105a91/1MONOPOLY.jpg"
     }
 ]

@@ -9,12 +9,12 @@ export default function Header(){
 
             <ul className='nav-container'>
                 <li data-current='true'><a href='#home'>Meeting the Brief</a></li>
-                <li><a href='#invesigation'>Investigation</a></li>
-                <li><a href='#invesigation'>Planning</a></li>
-                <li><a href='#projects'>Design</a></li>
-                <li><a href='#projects'>Implementation</a></li>
-                <li><a href='#projects'>Testing</a></li>
-                <li><a href='#contact'>Evaluation</a></li>
+                <li><a href='#investigation'>Investigation</a></li>
+                <li><a href='#planning'>Planning</a></li>
+                <li><a href='#design'>Design</a></li>
+                <li><a href='#implementation'>Implementation</a></li>
+                <li><a href='#testing'>Testing</a></li>
+                <li><a href='#evaluation'>Evaluation</a></li>
             </ul>
         </header>
     )

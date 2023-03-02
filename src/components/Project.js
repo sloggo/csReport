@@ -14,26 +14,6 @@ export default function Project(props){
                         return <li key={index}>{item}</li>
                     })}
                 </ul>
-
-                <div className='project-text-bottom'>
-                    <div className='project-languages'>
-                        {props.project.languages.map((lang) => {
-                            return <LanguageIcon language={lang} key={lang.id}></LanguageIcon>
-                        })}
-                    </div>
-
-                    <div className='project-links'>
-                        <a target="_blank" className="project-repo-container" href={props.project.repo}>
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                            <p>Github Repo</p>
-                        </a>
-
-                        <a target="_blank" className="project-live-container" href={props.project.live}>
-                            <img src="./external-link.svg" />
-                            <p>Live Demo</p>
-                        </a>
-                    </div>
-                </div>
                 
             </div>
         </motion.div>

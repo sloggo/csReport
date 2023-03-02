@@ -3,7 +3,7 @@ import LanguageSpindle from './LanguageSpindle'
 
 export default function AboutMe(){
     return(
-        <a id='aboutme'>
+        <a id='investigation'>
             <div className="aboutme-container">
                 <motion.h1 className="aboutme-title" initial={{y:100, scale:0.5}} whileInView={{y:0, scale:1}} viewport={{once: true}}>What were my initial ideas?</motion.h1>
 
