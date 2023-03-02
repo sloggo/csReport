@@ -1,8 +1,8 @@
 [
     {
-        "title":"ToDo List",
-        "desc":"A full To-do list application with local storage in plain javascript.",
-        "features": ["Functional search bar", "Sorting tabs", "Dynamic layout using CSS grid", "Working percentage tracker", "Local storage"],
+        "title":"UNO Physical Card Game",
+        "desc":"What's better than a face to face battle?",
+        "features": ["Around ten euro at Easons", "Sit around table with family and friends", "In person, communicative and social", "As many players as the deck allows", "House rules up to players"],
         "img":"./Todo.png",
         "repo": "https://github.com/sloggo/todo-list",
         "live": "https://sloggo.github.io/todo-list/",

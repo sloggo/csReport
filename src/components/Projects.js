@@ -8,7 +8,7 @@ export default function Projects(props){
 
     return(
             <div className="projects-section-container">
-                <h1 className="aboutme-title">Here are some things I've worked on;</h1>
+                <h1 className="aboutme-title">Here are some existing solutions;</h1>
 
                 <a id="projects">
                     <div className="projects-container">
@@ -16,7 +16,7 @@ export default function Projects(props){
                     </div>
                 </a>
                 
-                <h1 className="aboutme-title">With more to come!</h1>
+                <h1 className="aboutme-title">What will my solution include?</h1>
             </div>
     )
 }

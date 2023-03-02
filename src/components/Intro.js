@@ -22,21 +22,21 @@ export default function Intro(){
                         <motion.div layout className='intro-text-container'>
                             <motion.h1  className="intro-text"
                                 initial={{y:101}} animate={{y:0}} transition={{duration:.5}}>
-                                Hi!
+                                2023
                             </motion.h1>
                         </motion.div>
 
                         <motion.div  layout className='intro-text-container'>
                             <motion.h1 className="intro-text"
                                 initial={{y:101}} animate={{y:0}} transition={{duration:.5, delay:.6}}>
-                                I'm <span className='intro-text-highlight'>Josh</span>,
+                                Computer Science,
                             </motion.h1>
                         </motion.div>
 
                         <motion.div layout className='intro-text-container'>
                             <motion.h1  className="intro-text"
                                 initial={{y:101}} animate={{y:0}} transition={{duration:.5, delay:1.2}}>
-                                A web developer.
+                                <span className='intro-text-highlight'>Project</span>
                             </motion.h1>
                         </motion.div>
 
@@ -44,7 +44,7 @@ export default function Intro(){
                 </div>
 
                 <div className="intro-image-container">
-                    <motion.img initial={{opacity: 0, scale:0}} animate={{opacity:1, scale:1}} transition={{delay:2.2, duration:.7}} className='intro-image' src='./splotch.svg'></motion.img>
+                    <motion.img initial={{opacity: 0, scale:0}} animate={{opacity:1, scale:1}} transition={{delay:2.2, duration:.7}} className='intro-image' src='.\unologo.png'></motion.img>
                 </div>
             </div>
         </a>
