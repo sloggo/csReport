@@ -309,3 +309,7 @@ li{
   margin-left: 10px;
 }
 
+.ticks li{
+  list-style:disc;
+}
+
