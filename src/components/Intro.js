@@ -1,6 +1,7 @@
 import {motion, transform} from 'framer-motion'
 import React, {useState, useEffect} from 'react'
 import LanguageSpindle from './LanguageSpindle';
+import csVid from '../assets/csreport.mp4'
 
 export default function Intro(){
     const [moved, setMoved] = useState(false);
@@ -44,7 +45,7 @@ export default function Intro(){
                 </div>
 
                 <div className="intro-image-container">
-                    <motion.img initial={{opacity: 0, scale:0}} animate={{opacity:1, scale:1}} transition={{delay:2.2, duration:.7}} className='intro-image' src='.\unologo.png'></motion.img>
+                    <video width="720" height="480" src={csVid} controls/>
                 </div>
             </div>
         </a>

@@ -26,6 +26,7 @@ export default function Design(props){
                     <div className="design-container">
                             <p>Using React and HTML, I will create an interactive UNO game in the form of a website.</p>
                             <p>The user will be presented with options and will be able to play a classic game of UNO from start to finish, with mechanics such as skip cards, plus fours, wild cards and reverses, along with an UNO call mechanic just like the real game.</p>
+                            <p>In designing the architecture for my project, I broke this huge task into smaller managable chunks, using decomposition, with each component tackling a different aspect of the game.</p>
         
                             <br></br>
                             <img src={systemArchImage} className='flowchart'></img>    
@@ -71,7 +72,7 @@ export default function Design(props){
                             <h2>Data Analysis</h2>
                             <br></br>
                             <p>The live data will then be logged to an array, each card played, and each winner of each game, along with the length of each game, then finding the mean.</p>
-                            <p>This data will then be formatted to allow ChartJS to graph the data, by filtering the coloured cards to graph the frequency of each colour, and by filtering the number face of each card.</p>
+                            <p>This data will then be formatted to allow ChartJS to model the data, by filtering the coloured cards to graph the frequency of each colour, and by filtering the number face of each card.</p>
                             <p>Abstraction will be used to remove irrelevant data such as card images, to clear up data to allow the dataGrapher to graph the data easier.</p>
                             <p>This data will allow me to test hypotheses by changing variables such as number of players and number of starting cards and test if this data changes the length and/or winners of the game.</p>
                             <p>The graphs and the game will be played in real-time allowing the user to watch the data being logged and recorded.</p>
@@ -123,12 +124,7 @@ export default function Design(props){
                             <p>Another challenging piece of functionality was the plus four and plus two cards, to do this, I allowed an attribute in the pickup function to allow a user to pick up any number of cards. Using the plusNum attribute on these types of cards, I was able to check the attribute on played cards and if it had one, force the next user to pick up 2 or 4 cards. This was paired with a UI functionality to choose a colour for plus four and wild cards. This was also implemented into the bot algorithm</p>
                             <br></br>
                             
-                            <div className='fifty-fifty-container'>
-                                <img src={chartsImage} style={{width: "70%"}}></img>
-                                <div>
-                                <p>After that, a data formatting and graphing component was created to update the stastics everytime a card is played, using absraction to remove irrelevant data such as card image. This data was then graphed using ChartJs to test hypotheses as stated in “Meeting the Brief”. </p>
-                                </div>
-                            </div>
+                            <p>After that, a data formatting and graphing component was created to update the stastics everytime a card is played, using absraction to remove irrelevant data such as card image. This data was then graphed using ChartJs to test hypotheses as stated in “Meeting the Brief”. </p>
                             
                             <br></br>
                             <br></br>
