@@ -212,12 +212,10 @@ export default function Design(props){
                             <ul className='ticks'>
                                 <li>Online multiplayer using a backend (nodejs)</li>
                                 <li>MongoDB database for authentication and serversided game mechanics to stop cheating</li>
-                                <li>Live statistics.</li>
-                                <li>Single player: one player object playing against up to 7 bots</li>
-                                <li>Multiplayer (local): two player objects playing against up to 6 bots.</li>
-                                <li>Simulation: with customisation</li>
-                                <li>Game system tracks card data and graphs it live alongside the game.</li>
-                                <li>UNO! call mechanic</li>
+                                <li>Options for house rules such as stacking plus twos and fours and ending on wild cards.</li>
+                                <li>Maybe add a currency system to allow players to customise their avatar.</li>
+                                <li>Allow players to login using authentication to save their data (amount of wins, money etc.).</li>
+                                <li>Revamp the UI to make it more responsive, pleasing to the eye and easy to use.</li>
                             </ul>
                         </div>
                     </div>
