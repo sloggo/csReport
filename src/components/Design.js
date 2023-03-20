@@ -15,6 +15,7 @@ import formatWinnersDataTable from '../assets/format-winners-data-table.png'
 import chartsImage from '../assets/board.png' //change!!!
 import seperateWinnersDataImg from '../assets/seperate-winning-data.png'
 import seperateWinnersDataTable from '../assets/seperate-winning-data-table.png'
+import timelineImg from '../assets/timeline.png'
 
 
 export default function Design(props){
@@ -85,6 +86,7 @@ export default function Design(props){
                     <h1 className="aboutme-title">Implementation;</h1>
 
                     <div className="design-container">
+                            <img src={timelineImg} width={"80%"}></img>
                             <p>For my own implementation of an UNO game, I decided to create my game based in HTML and React. </p>
                             <p>The system architecture of this game hinges on 2 main components; the board and the player deck. Each of these components pass through information and functions through each other to make a modular, easy to read codebase. Using decomposition works great with this style of modular programming. </p>
                             <p>The first step was to create the board component, this is the component that handles the base deck the game will use, the current card and keeping track of player statuses (their go?, skipped?, bot? etc.). To start I created a JSON file with all possible UNO cards, to keep track of what card does what. </p>
